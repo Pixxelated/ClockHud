@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "clockHud",
+  "version": "${version}",
+  "name": "ClockHud",
+  "description": "Displays current time on the HUD",
+  "authors": [
+    "Pixxel"
+  ],
+  "contact": {
+    "repo": "https://github.com/Pixxelated/ClockHud"
+  },
+  "license": "MIT",
+  "icon": "assets/clockHud/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.pixxel.clockhud.client.ClockHudClient"
+    ],
+    "main": [
+      "me.pixxel.clockhud.ClockHud"
+    ]
+  },
+  "mixins": [
+    "clockHud.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.1",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
