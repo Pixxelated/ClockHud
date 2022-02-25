@@ -1,8 +1,10 @@
-Requires [Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu), [Cloth Config](https://www.curseforge.com/minecraft/mc-mods/cloth-config), and [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 ## About:
 A Fabric mod that displays your current time on the HUD.
 ![in-game screenshot](https://i.imgur.com/WzJOcZt.png)
-
+### Dependencies:
+* [Cloth Config](https://www.curseforge.com/minecraft/mc-mods/cloth-config) (Required)
+* [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api) (Required)
+* [Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) (Optional)
 ## Features:
 **Lots of customization options!**
 * Toggle display, shadow, and background
