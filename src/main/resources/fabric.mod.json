@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "id": "clockHud",
-  "version": "${version}",
+  "id": "clock-hud",
+  "version": "1.0-1.18.1",
   "name": "ClockHud",
   "description": "Displays current time on the HUD",
   "authors": [
@@ -10,15 +10,15 @@
   "contact": {
     "repo": "https://github.com/Pixxelated/ClockHud"
   },
-  "license": "MIT",
-  "icon": "assets/clockHud/icon.png",
-  "environment": "*",
+  "license": "LGPL-3.0",
+  "icon": "assets/clock-hud/icon.png",
+  "environment": "client",
   "entrypoints": {
-    "client": [
-      "me.pixxel.clockhud.client.ClockHudClient"
+    "modmenu": [
+      "me.pixxel.clock.config.ModMenuIntegration"
     ],
-    "main": [
-      "me.pixxel.clockhud.ClockHud"
+    "client": [
+      "me.pixxel.clock.ClockMod"
     ]
   },
   "mixins": [

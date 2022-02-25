@@ -1,0 +1,18 @@
+{
+  "text.autoconfig.clock.title": "Clock Hud",
+  "text.autoconfig.clock.option.enabled": "Enabled",
+  "text.autoconfig.clock.option.timeSystem": "Time System",
+  "text.autoconfig.clock.option.clockSystem.hr12": "12hr System",
+  "text.autoconfig.clock.option.clockSystem.hr24": "24hr System",
+  "text.autoconfig.clock.option.topOffset": "Top Margin",
+  "text.autoconfig.clock.option.leftOffset": "Left Margin",
+  "text.autoconfig.clock.option.shadow": "Text Shadow",
+  "text.autoconfig.clock.option.color": "Text Colour",
+  "text.autoconfig.clock.option.opacity": "Text Opacity",
+  "text.autoconfig.clock.option.bg": "Background",
+  "text.autoconfig.clock.option.bgColor": "Background Colour",
+  "text.autoconfig.clock.option.bgOpacity": "Background Opacity",
+  "text.autoconfig.clock.option.holdKeyToShowClock": "Hold key to show Clock",
+  "key.clock.toggleClockOverlay": "Toggle Clock Overlay",
+  "key.clock.category": "Clock Hud"
+}
